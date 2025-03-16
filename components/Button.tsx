@@ -11,7 +11,7 @@ interface ButtonProps {
 }
 
 const Button = ({className, href, onClick, children, px, white}: ButtonProps) => {
-    const classes = `button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 ${px || "px-7"} ${white ? "text-black" : "text-gray-200"} ${className || ""}`;
+    const classes = `font-code text-xs font-bold uppercase tracking-wider relative inline-flex items-center justify-center h-11 transition-colors hover:text-purple-400 ${px || "px-7"} ${white ? "text-black" : "text-gray-200"} ${className || ""}`;
     const spanClasses = 'relative z-10 hover: text-purple-400';
 
     const renderButton = () => (

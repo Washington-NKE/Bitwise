@@ -1,21 +1,23 @@
-import { benefits } from "../constants";
+import { products } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../public/assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../public/assets/svg/ClipPath";
 
-const Benefits = () => {
+const Products = () => {
   return (
-    <Section id="features">
+    <Section id="shop">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Stop pixel-pushing and start impressing - get designs that do the work for you."
+          text=""
+          tag="Shop"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
+          {products.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
@@ -33,10 +35,12 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-gray-200 uppercase tracking-wider">
+                  <a href="/shop" className="ml-auto flex items-center justify-center gap-1">
+                  <p className=" font-code text-xs font-bold text-gray-200 uppercase tracking-wider">
                     Explore more
                   </p>
                   <Arrow />
+                  </a>
                 </div>
               </div>
 
@@ -68,4 +72,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Products;

@@ -9,7 +9,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+            A Platform for seamless collaboration
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -26,7 +26,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button href="/signup">Try it now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -49,17 +49,18 @@ const Collaboration = () => {
             </div>
 
             <ul>
-              {collabApps.map((app, index) => (
-                <li
-                  key={app.id}
-                  className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
-                    index * 45
-                  }`}
+            {collabApps.map((app, index) => (
+              <li
+                key={app.id}
+                className="absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom"
+                style={{ transform: `rotate(${index * 45}deg)` }}
+              >
+                <div
+                  className="relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-text-gray-900 border border-gray-200/15 rounded-xl"
+                  style={{ transform: `rotate(-${index * 45}deg)` }}
                 >
-                  <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-text-gray-900 border border-gray-200/15 rounded-xl -rotate-${
-                      index * 45
-                    }`}
+                  <div 
+                    className="relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-gray-900 border border-gray-200/15 rounded-xl"
                   >
                     <img
                       className="m-auto"
@@ -69,8 +70,9 @@ const Collaboration = () => {
                       src={app.icon}
                     />
                   </div>
-                </li>
-              ))}
+                </div>
+              </li>
+            ))}
             </ul>
 
             <LeftCurve />

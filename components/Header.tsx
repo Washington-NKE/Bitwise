@@ -31,7 +31,7 @@ const Header = () => {
     <div className={`fixed top-0 left-0 w-full z-50 border-b border-gray-800 lg:bg-black/90  lg:backdrop-blur-sm ${openNavigation ? 'bg-black' : 'bg-black/90 backdrop-blur-sm'}`}> 
     <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
     <a className='block w-[12-rem xl:mr-8' href='#hero'>
-        <img src="/assets/brainwave.svg" width={190} height={40} alt="Bitwise" />
+        <img src="/assets/bitwise.png" width={190} height={40} alt="Bitwise" />
     </a>
 
     <nav className={`${openNavigation ? 'flex' : 'hidden'} fixed top-[5rem] left-0 right-0 bottom-0 bg-black lg:static lg:flex lg:mx-auto lg:bg-transparent`}>

@@ -11,19 +11,18 @@ import CompanyLogos from "./CompanyLogos";
 const Hero = () => {
   const parallaxRef = useRef(null);
   const customPaddings = "";
-
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings={customPaddings}
-      id="hero"
+      id="home"
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem] mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+            Bring Your Ideas to Life&nbsp;- Custom&nbsp;Web Solutions, Stunning Graphics and Bespoke Apps with {` `}
             <span className="inline-block relative">
               Bitwise{" "}
               <img
@@ -36,8 +35,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8 max-w-3xl mx-auto mb-6 text-gray-300 lg:mb-8">
-            Unleash the power of AI within Bitwise. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Explore premium digital products, innovative web development, and tailor-made applications designed to elevate your brand.
           </p>
           <Button href="/pricing" white>
             Get started
@@ -72,7 +70,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Web solutions"
                   />
                 </ScrollParallax>
               </div>

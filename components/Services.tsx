@@ -12,13 +12,13 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="portfolio">
       <div className="container">
         <Heading
           className=""
-          tag="Services"
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          tag="Projects"
+          title="A showcase of creativity, innovation and problem-solving."
+          text="Bitwise unlocks the potential of creative ideas."
         />
 
         <div className="relative">
@@ -34,9 +34,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="text-[2rem] leading-normal mb-4">Smartest AI</h4>
+              <h4 className="text-[2rem] leading-normal mb-4">Smartest Developers</h4>
               <p className="font-light text-[0.875rem] leading-6 md:text-base mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+              Bitwise unlocks the potential of creative ideas
               </p>
               <ul className="font-light text-[0.875rem] leading-6 md:text-base">
                 {brainwaveServices.map((item, index) => (
@@ -67,10 +67,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-black/0 to-black/90 lg:p-15">
-                <h4 className="text-[2rem] leading-normal mb-4">Photo editing</h4>
+                <h4 className="text-[2rem] leading-normal mb-4">Web Development</h4>
                 <p className="font-light text-[0.875rem] leading-6 md:text-base mb-[3rem] text-gray-400">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Get a sleek, high-performing website that drives results-no stress, just solutions. Try us now!
                 </p>
               </div>
 
@@ -79,10 +78,9 @@ const Services = () => {
 
             <div className="p-4 bg-gray-900 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Web app development</h4>
                 <p className="font-light text-[0.875rem] leading-6 md:text-base mb-[2rem] text-gray-400">
-                  The world&apos;s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  The ultimate web and app development powerhouse. What will you build?
                 </p>
 
                 <ul className="flex items-center justify-between">

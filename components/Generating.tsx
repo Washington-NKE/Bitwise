@@ -7,7 +7,7 @@ const Generating = ({ className}:{className?: string}) => {
       } text-base`}
     >
       <img className="w-5 h-5 mr-4" src='/assets/loading.png' alt="Loading" />
-      AI is generating
+      Bitwise is customizing|
     </div>
   );
 };

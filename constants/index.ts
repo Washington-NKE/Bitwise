@@ -2,32 +2,37 @@
   export const navigation = [
     {
       id: "0",
-      title: "Features",
-      url: "#features",
+      title: "Home",
+      url: "#home",
     },
     {
       id: "1",
-      title: "Pricing",
-      url: "#pricing",
+      title: "Shop",
+      url: "#shop",
     },
     {
       id: "2",
-      title: "How to use",
-      url: "#how-to-use",
+      title: "Portfolio",
+      url: "#portfolio",
     },
     {
       id: "3",
-      title: "Roadmap",
-      url: "#roadmap",
+      title: "About",
+      url: "#About",
     },
     {
-      id: "4",
+      id:"4",
+      title: "Contact",
+      url: "#contact"
+    },
+    {
+      id: "5",
       title: "New account",
       url: "#signup",
       onlyMobile: true,
     },
     {
-      id: "5",
+      id: "6",
       title: "Sign in",
       url: "#login",
       onlyMobile: true,
@@ -47,14 +52,15 @@
 
   export const notificationImages = [notification4, notification3, notification2];
 
-  const yourlogo ='/assets/yourlogo.svg';
+  const yourlogo ='/assets/bitwise-small-white.png';
   
   export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
   
   export const brainwaveServices = [
-    "Photo generating",
-    "Photo enhance",
-    "Seamless Integration",
+    "Website & Landing Page building",
+    "Customized web apps",
+    "E-commerce stores",
+    "API &  Backend Services"
   ];
   
   const recording03 = '/assets/recording-03.svg';
@@ -74,33 +80,33 @@
   export const roadmap = [
     {
       id: "0",
-      title: "Voice recognition",
-      text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-      date: "May 2023",
-      status: "done",
+      title: "AI-Powered Voice Notes App",
+      text: "Convert speech to text and organize notes with AI summarization.",
+      date: "February 2025",
+      status: "progress",
       imageUrl: '/assets/roadmap/image-1.png',
       colorful: true,
     },
     {
       id: "1",
-      title: "Gamification",
-      text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-      date: "May 2023",
+      title: "Gamified Educational Quiz App",
+      text: "A learning platform whre users earn XP for answering questions correctly.",
+      date: "March 2025",
       status: "progress",
       imageUrl: '/assets/roadmap/image-2.png',
     },
     {
       id: "2",
-      title: "Chatbot customization",
-      text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-      date: "May 2023",
+      title: "Library Management System",
+      text: "A smart and efficient Library Management System that simplifies book tracking, borrowing, and returns.",
+      date: "January 2025",
       status: "done",
       imageUrl: '/assets/roadmap/image-3.png',
     },
     {
       id: "3",
-      title: "Integration with APIs",
-      text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+      title: "AI Image Generator API",
+      text: "A REST API that lets users generate AI-powered images from text prompts.",
       date: "May 2023",
       status: "progress",
       imageUrl: '/assets/roadmap/image-4.png',
@@ -108,7 +114,7 @@
   ];
   
   export const collabText =
-    "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+    "With latest tools and top-notch digital products, it's the perfect solution for people looking to work smarter.";
   
   export const collabContent = [
     {
@@ -221,19 +227,19 @@
     },
   ];
   
-  export const benefits = [
+  export const products = [
     {
       id: "0",
-      title: "Ask anything",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "Social Media Templates",
+      text: "Professionally designed Instagram and Facebook post templates with modern aesthetics and trendy color schemes, easily customizable in Canva.",
       backgroundUrl: "assets/benefits/card-1.svg",
       iconUrl: 'assets/benefits/icon-1.svg',
       imageUrl: 'assets/benefits/image-2.png',
     },
     {
       id: "1",
-      title: "Improve everyday",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      title: "Branding Kits",
+      text: "Complete branding packages including logo templates, color palettes, font combinations, and social media assets created in Figma.",
       backgroundUrl: "assets/benefits/card-2.svg",
       iconUrl: 'assets/benefits/icon-2.svg',
       imageUrl: 'assets/benefits/image-2.png',
@@ -241,16 +247,16 @@
     },
     {
       id: "2",
-      title: "Connect everywhere",
-      text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+      title: "Website UI Kits",
+      text: "High-conversion landing page components and UI elements, ready to be implemented for modern websites.",
       backgroundUrl: "assets/benefits/card-3.svg",
       iconUrl: 'assets/benefits/icon-3.svg',
       imageUrl: 'assets/benefits/image-2.png',
     },
     {
       id: "3",
-      title: "Fast responding",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "Digital Planners",
+      text: "Beautiful and functional digital planners with hyperlinked sections, created with iPad-compatible features.",
       backgroundUrl: "assets/benefits/card-4.svg",
       iconUrl: 'assets/benefits/icon-4.svg',
       imageUrl: 'assets/benefits/image-2.png',
@@ -258,16 +264,16 @@
     },
     {
       id: "4",
-      title: "Ask anything",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "AI-Enhanced Mockups",
+      text: "Premium product mockups enhanced with AI for realistic shadows and lighting effects for professional product displays.",
       backgroundUrl: "assets/benefits/card-5.svg",
       iconUrl: 'assets/benefits/icon-1.svg',
       imageUrl: 'assets/benefits/image-2.png',
     },
     {
       id: "5",
-      title: "Improve everyday",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      title: "Digital Art Collections",
+      text: "Unique digital illustrations and patterns, perfect for prints, merchandise, and digital backgrounds.",
       backgroundUrl: "assets/benefits/card-6.svg",
       iconUrl: 'assets/benefits/icon-2.svg',
       imageUrl: 'assets/benefits/image-2.png',
