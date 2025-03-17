@@ -5,21 +5,21 @@
       title: "Home",
       url: "#home",
     },
-    {
-      id: "1",
-      title: "Shop",
-      url: "#shop",
-    },
+    // {
+    //   id: "1",
+    //   title: "Shop",
+    //   url: "#shop",
+    // },
     {
       id: "2",
       title: "Portfolio",
       url: "#portfolio",
     },
-    {
-      id: "3",
-      title: "About",
-      url: "#About",
-    },
+    // {
+    //   id: "3",
+    //   title: "About",
+    //   url: "#About",
+    // },
     {
       id:"4",
       title: "Contact",
@@ -28,13 +28,13 @@
     {
       id: "5",
       title: "New account",
-      url: "#signup",
+      url: "/signup",
       onlyMobile: true,
     },
     {
       id: "6",
       title: "Sign in",
-      url: "#login",
+      url: "/login",
       onlyMobile: true,
     },
   ];

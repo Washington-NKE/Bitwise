@@ -16,8 +16,8 @@ export default function Home() {
     <div className="pt-[4.75rem] lg:pt-[5.25 overflow-hidden">
       <Header />
       <Hero />
-      <Products />
-      <Collaboration />
+      {/* <Products /> */}
+      {/* <Collaboration /> */}
       <Services />
       <Roadmap />
       <Footer className="" />
