@@ -1,10 +1,10 @@
 import { companyLogos } from "../constants";
 
-const CompanyLogos = ({ className }: {className?: string}) => {
+const CompanyLogos = ({ className }:{className?: string}) => {
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-1/50">
-        Helping people elevate their brands with sleek, custom and eye catching products.
+      <h5 className="tagline mb-6 text-center text-gray-200/50">
+        Helping people create beautiful content at
       </h5>
       <ul className="flex">
         {companyLogos.map((logo, index) => (

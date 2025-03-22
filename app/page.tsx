@@ -7,6 +7,9 @@ import Services from "@/components/Services";
 import Roadmap from "@/components/Roadmap";
 import Footer from "@/components/Footer";
 import Products from "@/components/Products";
+import ContactSection from "@/components/Contact";
+import AboutSection from "@/components/About";
+import BlogPosts from "@/components/Blog";
 
 export default function Home() {
 
@@ -19,8 +22,11 @@ export default function Home() {
       {/* <Products /> */}
       {/* <Collaboration /> */}
       <Services />
-      <Roadmap />
-      <Footer className="" />
+      {/* <Roadmap /> */}
+      {/* <BlogPosts /> */}
+      <AboutSection />
+      <ContactSection />
+      <Footer />
     </div>
     <ButtonGradient />
     </>

@@ -12,11 +12,11 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="portfolio">
+    <Section id="services">
       <div className="container">
         <Heading
           className=""
-          tag="Projects"
+          tag="Services"
           title="A showcase of creativity, innovation and problem-solving."
           text="Bitwise unlocks the potential of creative ideas."
         />

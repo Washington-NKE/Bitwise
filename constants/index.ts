@@ -39,6 +39,102 @@
     },
   ];
 
+  // Define your nav items with dropdowns
+  type NavItem = {
+    id: number;
+    title: string;
+    url: string;
+    hasDropdown: boolean;
+    onlyMobile?: boolean;
+    dropdownItems?: { name: string; href: string; }[];
+  };
+  
+
+
+  export const navItems: NavItem[] = [
+    {
+      id: 1,
+      title: "About",
+      url: "#about",
+      hasDropdown: true,
+      dropdownItems: [
+        // { name: "Introduction", href: "#" },
+        { name: "Portfolio", href: "#" },
+        // { name: "Experience", href: "#" },
+        // { name: "Tech Stack", href: "#" },
+        { name: "Why Choose Us?", href: "#" },
+      ],
+    },
+    {
+      id: 2,
+      title: "Web Development",
+      url: "/webdevelopment",
+      hasDropdown: true,
+      dropdownItems: [
+        { name: "Responsive Websites", href: "/webdevelopment" },
+        { name: "Landing Pages", href: "/webdevelopment" },
+        { name: "E-commerce Sites", href: "/webdevelopment" },
+        { name: "WordPress Development", href: "/webdevelopment" },
+        { name: "Frontend Development", href: "/webdevelopment" },
+        { name: "Backend Integration", href: "/webdevelopment" },
+      ],
+    },
+    // {
+    //   id: 3,
+    //   title: "Software Services",
+    //   url: "#",
+    //   hasDropdown: true,
+    //   dropdownItems: [
+    //     { name: "Web Applications", href: "#" },
+    //     { name: "Custom Software", href: "#" },
+    //     { name: "API Development", href: "#" },
+    //     { name: "Database Design", href: "#" },
+    //     { name: "Code Optimization", href: "#" },
+    //   ],
+    // },
+    {
+      id: 4,
+      title: "Design Services",
+      url: "/design",
+      hasDropdown: true,
+      dropdownItems: [
+        { name: "UI/UX Design", href: "/design" },
+        { name: "Logo Design", href: "/design" },
+        { name: "Poster Design", href: "/design" },
+        // { name: "Social Media Graphics", href: "/design" },
+        // { name: "Brand Identity", href: "/design" },
+      ],
+    },
+    {
+      id: 5,
+      title: "Resources",
+      url: "/resources",
+      hasDropdown: true,
+      dropdownItems: [
+        { name: "Blog", href: "/resources/blogs" },
+        // { name: "Tutorials", href: "/resources/tutorials" },
+        // { name: "Free Tools", href: "/resources/tools" },
+        // { name: "Downloads", href: "/resources/downloads" },
+        { name: "Learning Path", href: "/resources/learning-path" },
+      ],
+    },
+    {
+      id: 6,
+      title: "Creative Ventures",
+      url: "/creative-ventures",
+      hasDropdown: true,
+      dropdownItems: [
+        {name: "Couple App", href: "lovewise.bitwiselabz.com"}
+      ]
+    },
+    {
+      id: 7,
+      title: "Contact",
+      url: "#contact",
+      hasDropdown: false,
+    },
+  ];
+
   const homeSmile = '/assets/home-smile.svg';
   const file02 = '/assets/file-02.svg';
   const searchMd = '/assets/search-md.svg';
@@ -76,6 +172,54 @@
     chromecast,
     sliders04,
   ];
+
+  export const blogPosts = [
+      {
+        id: 1,
+        title: "The Future of Web Development",
+        excerpt: "Exploring the latest trends and technologies that are shaping the future of web development in 2025.",
+        date: "March 15, 2025",
+        author: "Washington Mwangi",
+        imageUrl: "/api/placeholder/600/400",
+        slug: "future-web-development"
+      },
+      {
+        id: 2,
+        title: "Optimizing React Performance",
+        excerpt: "Learn advanced techniques to boost your React application's performance and user experience.",
+        date: "March 8, 2025",
+        author: "Washington Mwangi",
+        imageUrl: "/api/placeholder/600/400",
+        slug: "optimizing-react-performance"
+      },
+      {
+        id: 3,
+        title: "Designing for Accessibility",
+        excerpt: "Essential principles and practices for creating inclusive web experiences that work for everyone.",
+        date: "February 28, 2025",
+        author: "Jamie Rivera",
+        imageUrl: "/api/placeholder/600/400",
+        slug: "designing-accessibility"
+      },
+      {
+        id: 4,
+        title: "The Art of CSS Architecture",
+        excerpt: "Building scalable and maintainable CSS systems for large applications and teams.",
+        date: "February 20, 2025",
+        author: "Washington Mwangi",
+        imageUrl: "/api/placeholder/600/400",
+        slug: "css-architecture"
+      },
+      {
+        id: 5,
+        title: "State Management in 2025",
+        excerpt: "Comparing modern state management solutions and when to use each in your projects.",
+        date: "February 12, 2025",
+        author: "Washington Mwangi",
+        imageUrl: "/api/placeholder/600/400",
+        slug: "state-management-2025"
+      }
+    ];
   
   export const roadmap = [
     {
